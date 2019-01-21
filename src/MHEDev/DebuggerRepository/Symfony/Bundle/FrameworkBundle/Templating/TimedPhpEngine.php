@@ -1,0 +1,1 @@
+<tr><td colspan='2'>Tiene un STOPWATCH</td></tr>

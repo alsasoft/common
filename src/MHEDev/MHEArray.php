@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Common;
+namespace MHEDev;
 
 class MHEArray {
 

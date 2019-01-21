@@ -1,0 +1,30 @@
+<?php
+
+self::debugMethod($variable, $name, $deep, $directory, $visited, 'isCacheable', 'boolean');
+self::debugMethod($variable, $name, $deep, $directory, $visited, 'isFresh', 'boolean');
+self::debugMethod($variable, $name, $deep, $directory, $visited, 'isValidateable', 'boolean');
+self::debugMethod($variable, $name, $deep, $directory, $visited, 'isInvalid', 'boolean');
+self::debugMethod($variable, $name, $deep, $directory, $visited, 'isInformational', 'boolean');
+self::debugMethod($variable, $name, $deep, $directory, $visited, 'isSuccessful', 'boolean');
+self::debugMethod($variable, $name, $deep, $directory, $visited, 'isRedirection', 'boolean');
+self::debugMethod($variable, $name, $deep, $directory, $visited, 'isClientError', 'boolean');
+self::debugMethod($variable, $name, $deep, $directory, $visited, 'isServerError', 'boolean');
+self::debugMethod($variable, $name, $deep, $directory, $visited, 'isOk', 'boolean');
+self::debugMethod($variable, $name, $deep, $directory, $visited, 'isForbidden', 'boolean');
+self::debugMethod($variable, $name, $deep, $directory, $visited, 'isNotFound', 'boolean');
+self::debugMethod($variable, $name, $deep, $directory, $visited, 'isRedirect', 'boolean');
+self::debugMethod($variable, $name, $deep, $directory, $visited, 'isEmpty', 'boolean');
+self::debugMethod($variable, $name, $deep, $directory, $visited, 'hasVary', 'boolean');
+self::debugMethod($variable, $name, $deep, $directory, $visited, 'getVary', 'normal');
+self::debugMethod($variable, $name, $deep, $directory, $visited, 'mustRevalidate', 'boolean');
+//self::debugMethod($variable, $name, $deep, $directory, $visited, 'getContent', 'string');
+self::debugMethod($variable, $name, $deep, $directory, $visited, 'getProtocolVersion', 'string');
+self::debugMethod($variable, $name, $deep, $directory, $visited, 'getStatusCode', 'integer');
+self::debugMethod($variable, $name, $deep, $directory, $visited, 'getCharset', 'normal');
+self::debugMethod($variable, $name, $deep, $directory, $visited, 'getDate', 'normal');
+self::debugMethod($variable, $name, $deep, $directory, $visited, 'getAge', 'integer');
+self::debugMethod($variable, $name, $deep, $directory, $visited, 'getMaxAge', 'normal');
+self::debugMethod($variable, $name, $deep, $directory, $visited, 'getExpires', 'normal');
+self::debugMethod($variable, $name, $deep, $directory, $visited, 'getTtl', 'normal');
+self::debugMethod($variable, $name, $deep, $directory, $visited, 'getLastModified', 'normal');
+self::debugMethod($variable, $name, $deep, $directory, $visited, 'getEtag', 'normal');

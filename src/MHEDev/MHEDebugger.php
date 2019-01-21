@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Common;
+namespace MHEDev;
 
 class MHEDebugger {
 	public static function debugMethod(
@@ -161,7 +161,6 @@ class MHEDebugger {
 
 						foreach($classarray as $class){
 							$filename = $directory.str_replace('\\', '/', $class).'.php';
-
 							if(file_exists($filename)){
 								echo "<tr><th colspan=\"2\"><font color=\"red\">$class</font></th></tr>\n";
 								require $filename;

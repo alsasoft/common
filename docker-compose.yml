@@ -1,0 +1,18 @@
+version: "2"
+
+services:
+
+  # Contenedor Symfony
+  mhedev-common:
+    build: .
+    image: "mhedev/common:v1"
+    container_name: "mhedev-common"
+    hostname: "mhedev-common"
+    environment:
+      - SERVICE_NAME=mhedev-common
+    volumes:
+      - .:/var/www/html
+    command: "php -S 0.0.0.0:8080"
+#    command: "tail -f /dev/null"
+    ports:
+      - "8080:8080"
